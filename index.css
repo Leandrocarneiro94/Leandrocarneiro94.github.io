@@ -1,0 +1,49 @@
+body {
+    background-color: #7B7B7B;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content{
+    background: #B7B2B2;
+    padding: 60px;
+    margin-top: 200px;
+    position: relative;
+    flex-grow: 1;
+}
+
+.profpic {
+    height: 354px;
+    width: 333px;
+    position: absolute;
+    top: -100px;
+
+}
+
+.apresentacao {
+    color: #000000;
+    font-family: 'Bubbler One';
+    font-size: 40px;
+    text-align: justify;
+    max-width: 933px;
+    margin-left: auto;
+    display: block;
+
+}
+
+.linkpics {
+    list-style: none;
+    display: flex;
+    gap: 73px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.icon {
+    height: 100px;
+    width: 120px;
+
+}
