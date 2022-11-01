@@ -8,18 +8,36 @@ body {
 
 .content{
     background: #B7B2B2;
-    padding: 60px;
+    padding: 60px 250px;
     margin-top: 200px;
     position: relative;
     flex-grow: 1;
 }
 
+@media (max-width:800px){
+    .content{
+        padding: 20px;
+        padding-top: 150px;
+        margin-top: 150px;
+    }
+}
+
 .profpic {
-    height: 354px;
-    width: 333px;
+    height: 350px;
+    width: auto;
     position: absolute;
     top: -100px;
 
+}
+
+@media (max-width:800px){
+    .profpic{
+        height: 250px;
+        left: calc(50% - 125px);
+        width: 250px;
+        object-fit: contain ;
+
+    }
 }
 
 .apresentacao {
@@ -33,12 +51,20 @@ body {
 
 }
 
+@media (max-width:800px){
+    .apresentacao{
+        font-size: 30px;
+    }
+}
+
+
 .linkpics {
     list-style: none;
     display: flex;
     gap: 73px;
     align-items: center;
     justify-content: center;
+    padding: 0;
     
 }
 
@@ -46,4 +72,11 @@ body {
     height: 100px;
     width: 120px;
 
+}
+
+@media (max-width:800px){
+    .icon{
+        height: 50px;
+        width: 60px;
+    }
 }
